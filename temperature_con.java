@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class temperature_con {
+public class temperature_converter {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -54,7 +54,7 @@ public class temperature_con {
                     System.out.println(temperature + " Fahrenheit is equal to " + FK + " Kelvin.");
                 }
                 case 7 -> {
-                    System.out.println("Thank you for visiting");
+                    System.out.println("Thank You for visiting!!!");
                     System.exit(0);
                 }
                 default -> System.out.println("Invalid choice.");
